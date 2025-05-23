@@ -1,0 +1,1 @@
+sudo chown -R aylin:aylin ~/Projects/EnglisHub/EnglisHubAngular
