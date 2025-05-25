@@ -1,0 +1,41 @@
+.card-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.5rem;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.card-top {
+  width: 250px;
+  height: 250px;
+}
+
+.card-row {
+  display: flex;
+  gap: 20rem;
+}
+
+.card-row .card {
+  width: 250px;
+  height: 250px;
+}
+
+.card {
+  background-color: #abc4ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  color: #f0f0f0;
+}
+.card:hover {
+  background-color: #74b9ff; /* İstediğin hover rengi */
+  transform: scale(1.02);    /* Hafif büyütme efekti (isteğe bağlı) */
+}
