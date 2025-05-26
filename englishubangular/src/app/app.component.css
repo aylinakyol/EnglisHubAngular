@@ -1,4 +1,4 @@
-header {
+header{
   display: flex;
   align-items: center;
   padding-left: 2rem;
@@ -11,7 +11,7 @@ header {
   gap: 1rem;
 }
 
-h1 {
+h1, a {
   text-decoration: none;
   color: #f5f7f7;
 }

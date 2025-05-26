@@ -2,19 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 0.5rem;
+  margin-top: 5rem;
   gap: 2rem;
   padding: 1rem;
 }
 
-.card-top {
-  width: 250px;
-  height: 250px;
-}
-
 .card-row {
   display: flex;
-  gap: 20rem;
 }
 
 .card-row .card {

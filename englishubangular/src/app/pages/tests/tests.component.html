@@ -1,0 +1,17 @@
+<div class="quiz-container">
+  <h2>{{level}} {{topic}} Questions</h2>
+  
+  <div *ngIf="currentQuestion">
+    <h3>{{currentQuestion.text}}</h3>
+    
+    <div class="option" 
+         *ngFor="let option of currentQuestion.options; let i = index"
+         (click)="selectOption(i)">
+      {{option.text}}
+    </div>
+    <div class="button-container">
+        <button (click)="nextQuestion()" style="background-color: rgb(129, 146, 207); margin-right: 0;">&#8592; Previous</button>
+        <button (click)="previousQuestion()">Next &#8594;</button>
+    </div>
+</div>
+</div>
