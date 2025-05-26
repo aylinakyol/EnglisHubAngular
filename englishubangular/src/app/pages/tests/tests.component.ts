@@ -23,12 +23,12 @@ export class TestsComponent {
   // Örnek sorular - gerçek uygulamada bir servisten alınabilir
   questions = [
     {
-      text: 'Angular hangi dilde yazılmıştır?',
+      text: "I'd love to _____ her better, she seems really interesting.",
       options: [
-        { text: 'Java', correct: false },
-        { text: 'Python', correct: false },
-        { text: 'TypeScript', correct: true },
-        { text: 'C#', correct: false }
+        { text: 'get to know ', correct: false },
+        { text: 'get on', correct: false },
+        { text: 'hang out with', correct: true },
+        { text: 'fall out with', correct: false }
       ]
     },
     {
